@@ -1,0 +1,78 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Chunk';
+    src: url(font/Chunq.ttf);
+}
+
+@font-face {
+    font-family: 'Reboto Bold' ;
+    src: url(font/Roboto-Bold.ttf);
+}
+/* header */
+body{
+    background: #e29932;
+   
+}
+.container {
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .cabecalho {
+    background-color: rgb(35, 5, 5);
+    height: 120px;
+    width: 100%;
+} 
+.madeira{
+    height: 80vh;
+    width: 120vh;
+}
+.nome{
+    color: white;
+    font: 500 41px 'Chunk', sans-serif;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 30px 300px;
+    letter-spacing: 3px;
+
+}
+
+.img img{
+    width: 100%;
+}
+
+.entradas{
+    display: flex;
+}
+.entradas .sorteio img {
+   margin: 40px 0 0 65px;
+    width: 800px;
+    display: flex;
+}
+.entrada {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 80px;
+}
+#sortear {
+    margin: -500px;
+}
+.titulo{
+    font-size: 6vh;
+    color: white;
+}
+/* #min #max{
+   
+} */
+#sortear{
+    margin: 200px 0;
+}
