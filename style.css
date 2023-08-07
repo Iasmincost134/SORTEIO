@@ -26,9 +26,9 @@ body{
     align-items: center;
 }
 
- .cabecalho {
+ .cabecalho , .footer{
     background-color: rgb(35, 5, 5);
-    height: 120px;
+    height: 150px;
     width: 100%;
 } 
 .madeira{
@@ -41,9 +41,9 @@ body{
     text-align: center;
     align-items: center;
     display: flex;
-    padding: 30px 300px;
+    padding: 50px 240px;
     letter-spacing: 3px;
-
+    white-space: nowrap;
 }
 
 .img img{
@@ -54,7 +54,7 @@ body{
     display: flex;
 }
 .entradas .sorteio img {
-   margin: 40px 0 0 65px;
+   margin: 40px -120px;
     width: 800px;
     display: flex;
 }
@@ -63,16 +63,60 @@ body{
     flex-direction: column;
     margin: 100px 80px;
 }
-#sortear {
-    margin: -500px;
-}
+
 .titulo{
     font-size: 6vh;
     color: white;
 }
-/* #min #max{
-   
-} */
+
+#sortear , #resultado{
+    display: flex;
+    width: auto;
+  height: auto;
+  font-size: 36px;
+  /* font: 400 40px 'Roboto', sans-serif ; */
+}
 #sortear{
-    margin: 200px 0;
+    margin: -320px 220px ;
+    border: 2px solid rgb(63, 11, 11);
+    background-color: #ff9602d5;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font: 400 40px 'Roboto', sans-serif ;
+    color:rgb(63, 11, 11) ;
+}
+#resultado{
+    margin-top: 330px;
+    margin-left: 300px;
+   color: rgb(35, 5, 5);
+}
+input{
+    background-color:  #ff9602d5;
+    height: 60px;
+    width: 150px;
+    border-radius: 7px;
+    border: 2px solid  rgb(63, 11, 11);
+    text-align: center;
+    font: 400 40px 'Roboto', sans-serif ;
+    color:rgb(63, 11, 11) ;
+}
+.footer{
+    margin-top: 200px;
+}
+.festa{
+    margin: -100px 90px 0;
+    height: 70px;
+}
+
+.informacoes, .textrodape{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+   margin-left: -40px;
+   margin-top: 10px;
+}
+.sobre{
+    padding: 1rem 2.5rem;
+    font: 200 41px 'Chunk', sans-serif;
+    white-space: nowrap;
 }
